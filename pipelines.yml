@@ -1,12 +1,12 @@
 pipelines:
 - name: sleep
   steps:
-    - name: sleep-5
+    - name: sleep_5
       type: Bash
       execution:
         onExecute:
         - sleep 5
-    - name: sleep-10
+    - name: sleep_10
       type: Bash
       execution:
         onExecute:
