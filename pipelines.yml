@@ -6,8 +6,4 @@ pipelines:
       execution:
         onExecute:
         - sleep 5
-    - name: sleep_10
-      type: Bash
-      execution:
-        onExecute:
-        - sleep 10
+    
