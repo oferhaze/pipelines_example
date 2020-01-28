@@ -1,9 +1,6 @@
 pipelines:
- - name: Sleep
-   configuration:
-   runtime:
-    type: host
-steps:
+- name: sleep
+  steps:
   - name: First_Step
     type: Bash
     execution:
