@@ -1,4 +1,4 @@
-name: First_Pipeline_Long_Pipeline_Name_Long
+name: Sleep
 configuration:
   runtime:
     type: host
