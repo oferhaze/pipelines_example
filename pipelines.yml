@@ -1,7 +1,7 @@
 pipelines:
-name: Sleep
-configuration:
-  runtime:
+ - name: Sleep
+   configuration:
+   runtime:
     type: host
 steps:
   - name: First_Step
