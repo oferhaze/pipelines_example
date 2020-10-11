@@ -5,7 +5,7 @@ pipelines:
     type: Bash
     execution:
       onExecute:
-        - sleep 50
+        - sleep 10
   - name: Second_Step
     type: Bash
     configuration:
@@ -13,7 +13,7 @@ pipelines:
         - name: First_Step
     execution:
       onExecute:
-        - sleep 50
+        - sleep 10
   - name: Third_Step
     type: Bash
     configuration:
@@ -29,4 +29,4 @@ pipelines:
         - name: Third_Step
     execution:
       onExecute:
-        - sleep 20
+        - sleep 10
