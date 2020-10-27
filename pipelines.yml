@@ -1,5 +1,5 @@
 pipelines:
-- name: sleep2
+- name: sleep3
   steps:
   - name: First_Step
     type: Bash
